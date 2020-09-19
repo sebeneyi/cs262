@@ -1,3 +1,9 @@
+CS 262 - Lab 2
+This lab is based on [this](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html)
+
+Lists, button
+
+Answers to the lab questions:
 1. What is the name of the component in this application?
 View or text
 
