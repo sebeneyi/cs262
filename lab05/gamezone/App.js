@@ -16,9 +16,9 @@ export default function App() {
 
   if (fontsLoaded) {
     return (
-        <NavigationContainer>
-            <Navigator />
-        </NavigationContainer>
+      <NavigationContainer>
+        <Navigator />
+      </NavigationContainer>
     );
   } else {
     return (

@@ -8,9 +8,9 @@ export default function ReviewDetails({ route, navigation }) {
     return (
         <View style={globalStyles.container}>
             <Card>
-                <Text>{ route.params.title }</Text>
-                <Text>{ route.params.body }</Text>
-                <Text>{ route.params.rating }</Text>
+                <Text>{route.params.title}</Text>
+                <Text>{route.params.body}</Text>
+                <Text>{route.params.rating}</Text>
             </Card>
         </View>
     );

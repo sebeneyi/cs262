@@ -15,7 +15,7 @@ export default function Home({ navigation }) {
             <FlatList data={reviews} renderItem={({ item }) => (
                 <TouchableOpacity onPress={() => navigation.navigate('ReviewDetails', item)}>
                     <Card>
-                        <Text style={globalStyles.titleText}>{ item.title }</Text>
+                        <Text style={globalStyles.titleText}>{item.title}</Text>
                     </Card>
                 </TouchableOpacity>
             )} />
