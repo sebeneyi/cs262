@@ -8,6 +8,11 @@
 -- Drop previous versions of the tables if they exist, in reverse order of foreign keys.
 DROP TABLE IF EXISTS PlayerGame;
 DROP TABLE IF EXISTS Game;
+DROP TABLE IF EXISTS PlayerCash;
+DROP TABLE IF EXISTS Houses;
+DROP TABLE IF EXISTS Hotels;
+DROP TABLE IF EXISTS CurrentLocation;
+DROP TABLE IF EXISTS Properties;
 DROP TABLE IF EXISTS Player;
 
 -- Create the schema.
