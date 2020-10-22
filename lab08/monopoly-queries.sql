@@ -43,7 +43,7 @@ ORDER BY score DESC
 LIMIT 1;
 
 -- c --
--- Only allows the query to ouput the P1.name if P1.id number is less than P2.id --
+-- Only allows the query to ouput the P1.name if they have the same name and P1.id number is less than P2.id --
 
 -- d --
 -- If you wanna do queries on the table itself like if you wanna compare things in the table itself --
