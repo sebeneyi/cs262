@@ -33,6 +33,7 @@ router.get("/players/:id", readPlayer);
 router.put("/players/:id", updatePlayer);
 router.post('/players', createPlayer);
 router.delete('/players/:id', deletePlayer);
+router.get("/PlayerScore", PlayerScore)
 
 app.use(router);
 app.use(errorHandler);

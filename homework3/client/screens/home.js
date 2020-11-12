@@ -8,7 +8,7 @@ export default function Home({ navigation }) {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('https://cs262-monopoly-service.herokuapp.com/players/')
+        fetch('https://frozen-woodland-77184.herokuapp.com/playerScore')
             .then((response) => response.json())
             .then((json) => setData(json))
             .catch((error) => console.error(error))
