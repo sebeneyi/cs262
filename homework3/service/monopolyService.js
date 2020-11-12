@@ -108,3 +108,13 @@ function deletePlayer(req, res, next) {
             next(err);
         });
 }
+
+function PlayerScore(req, res, next) {
+    db.many("SELECT score FROM Player, PlayerGame WHERE Player.ID = PlayerGame.playerID AND Player.name = 'Dogbreath'")
+        .then(data => {
+            res.send(data);
+        })
+        .catch(err => {
+            next(err);
+        })
+}
