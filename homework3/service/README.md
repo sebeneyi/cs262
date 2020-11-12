@@ -20,20 +20,3 @@ it&rsquo;s easier to auto-deploy a separate repo to Heroku. For your team projec
 data service, configure your Heroku app to auto-deploy from the master/main branch
 of your service repo. See the instructions for how to do this under the
 &ldquo;Deploy&rdquo; tab in your Heroku application&rsquo;s dashboard.
-
-
-a. What are the (active) URLs for your data service?
-
-b. Which of these endpoints implement actions that are idempotent? nullipotent?
-
-c. Is the service RESTful? If not, why not? If so, what key features make it RESTful.
-
-d. Is there any evidence in your implementation of an impedance mismatch?
-
-https://frozen-woodland-77184.herokuapp.com/players
-
-https://frozen-woodland-77184.herokuapp.com/players/1
-
-https://frozen-woodland-77184.herokuapp.com/players/-1
-
-https://frozen-woodland-77184.herokuapp.com/blob
