@@ -1,0 +1,9 @@
+in markers.js
+
+deleted unused import StyleSheet, Text, Dimensions, Modal, Image, Component
+
+did not delete unused variable text, because although it said unused, it is just always being updated
+
+in app.js
+
+said 'require' was undefined, but you do not need to define function 'require' for it to be used. (also otherwise we cannot use different fonts)
