@@ -1,3 +1,3 @@
 # CS 262 Software Engineering
-## Class taken from Calvin University, Fall 2020
-Professor VanderLinden
+##### Class taken @ Calvin University, Fall 2020
+*with Professor VanderLinden*
